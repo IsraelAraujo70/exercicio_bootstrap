@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, #07052c, #000);
+    color: #fff; /* Define a cor do texto padrão como branco */
+    min-height: 100vh; /* Garante que o body cubra toda a altura da janela */
+}
+
+h2{
+    font-weight: 700;
+}
+
+section, div {
+    background: transparent;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #090638; 
+    border-bottom: 2px solid aqua;
+    padding: 16px 0;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.formulario{
+    margin-top: 10vh;
+    max-width: 900px;
+}
+
+button{
+    margin-top: 30px;
+}
+
+.col>h2{
+    margin-bottom: 5vh;
+}
+
+div.form-check{
+    margin-top: 10px;
+}
+
+header h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
